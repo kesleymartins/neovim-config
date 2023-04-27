@@ -16,9 +16,12 @@ return require('packer').startup(function(use)
   
   -- My Plugins
   use { "catppuccin/nvim", as = "catppuccin" } -- Colorscheme plugin
+  use("lewis6991/gitsigns.nvim")
+  use("nvim-treesitter/nvim-treesitter")
+  use("norcalli/nvim-colorizer.lua")
+
   use {
   "nvim-neo-tree/neo-tree.nvim",
-    branch = "v2.x",
     requires = { 
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons", 
@@ -36,11 +39,6 @@ return require('packer').startup(function(use)
     tag = "*", 
     requires = 'nvim-tree/nvim-web-devicons'
   }
-
-  use("norcalli/nvim-colorizer.lua")
-  use("lewis6991/gitsigns.nvim")
-  use("nvim-treesitter/nvim-treesitter")
-
   -- End of my plugins
   
   if packer_bootstrap then
