@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
   use("lewis6991/gitsigns.nvim")
   use("nvim-treesitter/nvim-treesitter")
   use("norcalli/nvim-colorizer.lua")
+  use("windwp/nvim-autopairs")
 
   use {
   "nvim-neo-tree/neo-tree.nvim",
