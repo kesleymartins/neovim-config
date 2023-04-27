@@ -14,4 +14,3 @@ o.cursorline = true
 
 -- Misc
 o.swapfile = false    -- impede a criacao de arquivos .swp 
-o.title = true        -- mostra o titulo do arquivo aberto
