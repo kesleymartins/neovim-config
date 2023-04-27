@@ -1,1 +1,6 @@
-vim.api.nvim_set_keymap('n', '<C-b>', ':Neotree toggle<CR>', { noremap = true })
+local map = vim.api.nvim_set_keymap
+local kmap = vim.keymap.set
+local opts = { noremap = true, silent = true }
+
+map('n', '<C-b>', ':Neotree toggle<CR>', opts)
+
