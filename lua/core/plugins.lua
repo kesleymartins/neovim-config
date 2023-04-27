@@ -32,6 +32,7 @@ return require('packer').startup(function(use)
   }
 
   use("norcalli/nvim-colorizer.lua")
+  use("lewis6991/gitsigns.nvim")
 
   -- End of my plugins
   
