@@ -22,6 +22,12 @@ return require('packer').startup(function(use)
   use("windwp/nvim-autopairs")
 
   use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
+
+  use {
   "nvim-neo-tree/neo-tree.nvim",
     requires = { 
       "nvim-lua/plenary.nvim",
