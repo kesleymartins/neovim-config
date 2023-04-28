@@ -13,7 +13,7 @@ local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
-  
+
   -- My Plugins
   use { "catppuccin/nvim", as = "catppuccin" }  -- Colorscheme plugin
   use("lewis6991/gitsigns.nvim")                -- Git integration
@@ -27,6 +27,17 @@ return require('packer').startup(function(use)
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
+
+  -- Auto complete
+  use("hrsh7th/nvim-cmp")     -- Code suggestions
+  use("hrsh7th/cmp-nvim-lsp") -- LSP based suggestions
+  use("hrsh7th/cmp-path")     -- Folder path based suggestions
+  use("hrsh7th/cmp-buffer")   -- Buffer content based suggestions
+  use("hrsh7th/cmp-cmdline")  -- Command line suggestions 
+
+  -- Snippets | nvim-cmp dependencies
+  use("L3MON4D3/LuaSnip")
+  use("saadparwaiz1/cmp_luasnip")
 
   -- Neotree
   use {
