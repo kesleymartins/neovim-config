@@ -15,18 +15,20 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   
   -- My Plugins
-  use { "catppuccin/nvim", as = "catppuccin" } -- Colorscheme plugin
-  use("lewis6991/gitsigns.nvim")
-  use("nvim-treesitter/nvim-treesitter")
-  use("norcalli/nvim-colorizer.lua")
-  use("windwp/nvim-autopairs")
+  use { "catppuccin/nvim", as = "catppuccin" }  -- Colorscheme plugin
+  use("lewis6991/gitsigns.nvim")                -- Git integration
+  use("nvim-treesitter/nvim-treesitter")        -- Treesitter
+  use("norcalli/nvim-colorizer.lua")            -- Colorizer
+  use("windwp/nvim-autopairs")                  -- To autoclose
 
+  -- Mason and LSP
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
 
+  -- Neotree
   use {
   "nvim-neo-tree/neo-tree.nvim",
     requires = { 
@@ -36,11 +38,13 @@ return require('packer').startup(function(use)
     }
   }
 
+  -- Lua line
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
-  
+ 
+  -- Bufferline
   use {
     'akinsho/bufferline.nvim', 
     tag = "*", 
