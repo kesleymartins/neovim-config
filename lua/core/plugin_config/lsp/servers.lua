@@ -5,7 +5,7 @@ local servers = {
   'jsonls',         -- JSON
   'tsserver',       -- Javascript | Typescript
   'lua_ls',         -- Lua
-  'ruby_ls',        -- Ruby
+  'solargraph',     -- Ruby
   'rust_analyzer',  -- Rust
   'svelte',         -- Svelte
   'volar',          -- Vue
