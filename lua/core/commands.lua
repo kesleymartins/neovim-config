@@ -1,3 +1,3 @@
 local cmd = vim.cmd
 
-cmd.colorscheme 'nordfox'
+cmd.colorscheme 'catppuccin-macchiato'
