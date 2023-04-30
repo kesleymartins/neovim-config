@@ -8,9 +8,8 @@ local servers = {
   'solargraph',     -- Ruby
   'rust_analyzer',  -- Rust
   'svelte',         -- Svelte
-  'volar',          -- Vue
+  'vuels',          -- Vue
   'html',           -- HTML
-  'emmet_ls',       -- Emmet
 }
 
 return servers
