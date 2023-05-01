@@ -1,5 +1,5 @@
-require('core.plugin_config.lsp.lspconfig')
-require('core.plugin_config.lsp.mason')
+require('core.plugin_config.cmp')
+require('core.plugin_config.lsp_config')
 require('core.plugin_config.autopairs')
 require('core.plugin_config.treesitter')
 require('core.plugin_config.neotree')
