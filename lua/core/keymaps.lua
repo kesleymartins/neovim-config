@@ -1,8 +1,8 @@
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 
--- Normal mode
-map('n', '<C-b>', ':Neotree left focus<CR>', opts)  -- Focus Neotree
+-- Normal Mode
+map('n', '<C-b>', ':Neotree right focus<CR>', opts)  -- Focus Neotree
 map('n', '<C-S-Down>', ':move +1<CR>', opts)        -- Move line Down
 map('n', '<C-S-Up>', ':move -2<CR>', opts)          -- Move line Up
 map('n', '<C-S-Right>', ':bnext<CR>', opts)         -- Next Buffer
