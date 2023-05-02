@@ -45,9 +45,9 @@ return require('packer').startup(function(use)
   -- Neotree
   use {
   "nvim-neo-tree/neo-tree.nvim",
-    requires = { 
+    requires = {
       "nvim-lua/plenary.nvim",
-      "nvim-tree/nvim-web-devicons", 
+      "nvim-tree/nvim-web-devicons",
       "MunifTanjim/nui.nvim",
     }
   }
@@ -57,15 +57,15 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
- 
+
   -- Bufferline
   use {
-    'akinsho/bufferline.nvim', 
-    tag = "*", 
+    'akinsho/bufferline.nvim',
+    tag = "*",
     requires = 'nvim-tree/nvim-web-devicons'
   }
   -- End of my plugins
-  
+
   if packer_bootstrap then
     require('packer').sync()
   end
