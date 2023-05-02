@@ -21,8 +21,7 @@ return require('packer').startup(function(use)
   use("windwp/nvim-autopairs")                  -- To autoclose
 
   -- Themes
-  use { "catppuccin/nvim", as = "catppuccin" }
-  use("EdenEast/nightfox.nvim")
+  use({ "catppuccin/nvim", as = "catppuccin" })
 
   -- Mason and LSP
   use {
