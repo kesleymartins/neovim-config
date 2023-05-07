@@ -8,6 +8,7 @@ require('nvim-treesitter.configs').setup({
     'lua',
     'ruby',
     'scss',
+    'css',
     'sql',
     'toml',
     'yaml',
