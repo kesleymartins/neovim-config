@@ -14,4 +14,4 @@ o.softtabstop = 2
 
 
 -- Commands
-cmd.colorscheme('everblush')
+cmd.colorscheme('catppuccin-macchiato')
