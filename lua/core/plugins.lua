@@ -19,7 +19,6 @@ return require('packer').startup(function(use)
   use("nvim-treesitter/nvim-treesitter")        -- Treesitter
   use("norcalli/nvim-colorizer.lua")            -- Colorizer
   use("windwp/nvim-autopairs")                  -- To autoclose ({"''"})
-  use("sunjon/shade.nvim")                      -- Add opacity to inactive window
 
   -- Themes
   use({ "catppuccin/nvim", as = "catppuccin" })
