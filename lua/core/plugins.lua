@@ -18,11 +18,12 @@ return require('packer').startup(function(use)
   use("lewis6991/gitsigns.nvim")                -- Git integration
   use("nvim-treesitter/nvim-treesitter")        -- Treesitter
   use("norcalli/nvim-colorizer.lua")            -- Colorizer
-  use("windwp/nvim-autopairs")                  -- To autoclose ('{}')
+  use("windwp/nvim-autopairs")                  -- To autoclose ({"''"})
+  use("sunjon/shade.nvim")                      -- Add opacity to inactive window
 
   -- Themes
   use({ "catppuccin/nvim", as = "catppuccin" })
-  use({ 'Everblush/nvim', name = 'everblush' })
+  use({ "Everblush/nvim", name = "everblush" })
 
   -- Mason and LSP
   use({
