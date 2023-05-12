@@ -22,13 +22,14 @@ return require('packer').startup(function(use)
 
   -- Themes
   use({ "catppuccin/nvim", as = "catppuccin" })
+  use({ 'Everblush/nvim', name = 'everblush' })
 
   -- Mason and LSP
-  use {
+  use({
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
-  }
+  })
 
   -- Auto complete
   use("hrsh7th/nvim-cmp")     -- Code suggestions
@@ -42,27 +43,28 @@ return require('packer').startup(function(use)
   use("saadparwaiz1/cmp_luasnip")
 
   -- Neotree
-  use {
+  use({
   "nvim-neo-tree/neo-tree.nvim",
-    requires = {
+  branch = "v2.x",
+  requires = {
       "nvim-lua/plenary.nvim",
       "nvim-tree/nvim-web-devicons",
       "MunifTanjim/nui.nvim",
     }
-  }
+  })
 
   -- Lua line
-  use {
+  use({
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-  }
+  })
 
   -- Bufferline
-  use {
+  use({
     'akinsho/bufferline.nvim',
     tag = "*",
     requires = 'nvim-tree/nvim-web-devicons'
-  }
+  })
   -- End of my plugins
 
   if packer_bootstrap then
