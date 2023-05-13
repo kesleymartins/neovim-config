@@ -7,7 +7,6 @@ local servers = {
   'rust_analyzer',  -- Rust
   'volar',          -- Vue
   'html',           -- HTML
-  'phpactor',       -- PHP
 }
 
 -- Mason Config
