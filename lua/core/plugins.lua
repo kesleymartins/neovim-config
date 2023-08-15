@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
   use("nvim-treesitter/nvim-treesitter")        -- Treesitter
   use("norcalli/nvim-colorizer.lua")            -- Colorizer
   use("windwp/nvim-autopairs")                  -- To autoclose ({"''"})
+  use("wakatime/vim-wakatime")                  -- Wakatime plugin
 
   -- Themes
   use({ "catppuccin/nvim", as = "catppuccin" })
