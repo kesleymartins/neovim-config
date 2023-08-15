@@ -33,13 +33,13 @@ My personal neovim config
 <Space>nt -- Toggle Neotree
 <Space>nc -- Close Neotree
 <C-q>     -- Close Buffer
-<C-up>    -- Move line up
-<C-Down>  -- Move line down
+<A-up>    -- Move line up
+<A-Down>  -- Move line down
 <C-S-Right> -- Go to next buffer
 <C-S-Left>  -- Go to previous buffer
 
 # Visual mode
-<C-up>    -- Move line up
-<C-Down>  -- Move line down
+<A-up>    -- Move line up
+<A-Down>  -- Move line down
 ```
   

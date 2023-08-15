@@ -6,12 +6,11 @@ map('n', '<Space>nf', ':Neotree right focus<CR>', opts)   -- Focus Neotree
 map('n', '<Space>nt', ':Neotree right toggle<CR>', opts)  -- Toggle Neotree
 map('n', '<Space>nc', ':Neotree close<CR>', opts)         -- Close Neotree 
 map('n', '<C-q>', ':bd<CR>', opts)                        -- Close Buffer
-map('n', '<C-Up>', ':move -2<CR>', opts)                  -- Move line Up
-map('n', '<C-Down>', ':move +1<CR>', opts)                -- Move line Down
+map('n', '<A-Up>', ':move -2<CR>', opts)                  -- Move line Up
+map('n', '<A-Down>', ':move +1<CR>', opts)                -- Move line Down
 map('n', '<C-S-Right>', ':bnext<CR>', opts)               -- Next Buffer
 map('n', '<C-S-Left>', ':bprevious<CR>', opts)            -- Previous Buffer
 
-
 -- Visual Mode Only
-map('x', '<C-Up>', ":move '<-2<CR>gv", opts)    -- Move line(s) Up
-map('x', '<C-Down>', ":move '>+1<CR>gv", opts)  -- Move line(s) Down
+map('x', '<A-Up>', ":move '<-2<CR>gv", opts)    -- Move line(s) Up
+map('x', '<A-Down>', ":move '>+1<CR>gv", opts)  -- Move line(s) Down
