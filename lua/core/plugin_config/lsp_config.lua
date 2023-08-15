@@ -7,6 +7,7 @@ local servers = {
   'rust_analyzer',  -- Rust
   'volar',          -- Vue
   'html',           -- HTML
+  'emmet_ls' -- Emmet
 }
 
 -- Mason Config
