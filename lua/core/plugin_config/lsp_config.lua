@@ -45,6 +45,6 @@ end
 -- LSP custom config
 lspconfig["emmet_ls"].setup({
   capabilities = capabilities,
-  filetypes = { "html" }
+  filetypes = { "html", "eruby" }
 })
 
