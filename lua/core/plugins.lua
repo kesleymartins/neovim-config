@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
   use("norcalli/nvim-colorizer.lua")            -- Colorizer
   use("windwp/nvim-autopairs")                  -- To autoclose ({"''"})
   use("wakatime/vim-wakatime")                  -- Wakatime plugin
+  use("lukas-reineke/indent-blankline.nvim")    -- Indentation guideline
 
   -- Themes
   use({ "catppuccin/nvim", as = "catppuccin" })
