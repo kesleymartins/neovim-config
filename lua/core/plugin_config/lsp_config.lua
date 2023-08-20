@@ -28,7 +28,7 @@ end
 require('mason').setup()
 
 require('mason-lspconfig').setup({
-  ensure_installed = all_servers 
+  ensure_installed = all_servers
 })
 
 -- LSP setup
