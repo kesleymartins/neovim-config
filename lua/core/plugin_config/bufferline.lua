@@ -4,6 +4,14 @@ require('bufferline').setup({
       enabled = true,
       reveal = {'close'}
     },
-    separator_style = "slant" -- slant slope thick thin
+    separator_style = "slant", -- slant slope thick thin
+    offsets = {
+      {
+        filetype = "NvimTree",
+        text = "~ NvimTree ~",
+        text_align = "center",
+        separator = true,
+      }
+    }
   }
 })
