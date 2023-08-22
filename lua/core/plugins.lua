@@ -22,6 +22,11 @@ return require('packer').startup(function(use)
   use("wakatime/vim-wakatime")                  -- Wakatime plugin
   use("lukas-reineke/indent-blankline.nvim")    -- Indentation guideline
 
+  use({
+    'nvim-tree/nvim-tree.lua',
+    requires = {'nvim-tree/nvim-web-devicons'},
+  })
+
   -- Themes
   use({ "catppuccin/nvim", as = "catppuccin" })
   use({ "Everblush/nvim", name = "everblush" })
