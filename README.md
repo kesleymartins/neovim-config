@@ -7,6 +7,14 @@ My personal neovim config
   - git
   - neovim
 
+### Useful Commands
+```lua
+:PackerInstall   -- Intall Plugins
+:PackerUpdate    -- Update plugins
+:TSUpdate        -- Update Treesitter
+:MasonUpdate     -- Update LSP servers
+```
+
 ### Setup
 ---
 - Install packer
