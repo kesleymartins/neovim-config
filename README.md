@@ -29,17 +29,18 @@ My personal neovim config
 ---
 ```lua
 # Normal mode
-<Space>nf -- Focus Neotree
-<Space>nt -- Toggle Neotree
-<Space>nc -- Close Neotree
-<C-q>     -- Close Buffer
-<A-up>    -- Move line up
-<A-Down>  -- Move line down
-<C-S-Right> -- Go to next buffer
-<C-S-Left>  -- Go to previous buffer
+<Space>nf       -- Focus NvimTree
+<Space>nc       -- Close NvimTree
+<Space>nr       -- Refresh NvimTree
+<C-q>           -- Close Buffer
+<A-up>          -- Move line up
+<A-Down>        -- Move line down
+<C-S-Right>     -- Go to next buffer
+<C-S-Left>      -- Go to previous buffer
+<Space>ff       -- Open Telescope file finder
 
 # Visual mode
-<A-up>    -- Move line up
-<A-Down>  -- Move line down
+<A-up>          -- Move line up
+<A-Down>        -- Move line down
 ```
   
