@@ -40,12 +40,13 @@ My personal neovim config
 <Space>nf       -- Focus NvimTree
 <Space>nc       -- Close NvimTree
 <Space>nr       -- Refresh NvimTree
+<Space>ff       -- Open Telescope file finder
+<Space>fg       -- Open Telescope live grep
 <C-q>           -- Close Buffer
 <A-up>          -- Move line up
 <A-Down>        -- Move line down
 <C-S-Right>     -- Go to next buffer
 <C-S-Left>      -- Go to previous buffer
-<Space>ff       -- Open Telescope file finder
 
 # Visual mode
 <A-up>          -- Move line up
