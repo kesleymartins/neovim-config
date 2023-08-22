@@ -6,6 +6,8 @@ My personal neovim config
   - g++
   - git
   - neovim
+  - fd find
+  - ripgrep
 
 ### Useful Commands
 ```lua
