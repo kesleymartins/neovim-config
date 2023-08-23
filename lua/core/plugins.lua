@@ -22,6 +22,13 @@ return require('packer').startup(function(use)
   use("wakatime/vim-wakatime")                  -- Wakatime plugin
   use("lukas-reineke/indent-blankline.nvim")    -- Indentation guideline
 
+  -- Buffer Switcher
+  use({
+    'j-morano/buffer_manager.nvim',
+    requires = use 'nvim-lua/plenary.nvim'
+  })
+
+  -- NvimTree
   use({
     'nvim-tree/nvim-tree.lua',
     requires = {'nvim-tree/nvim-web-devicons'},
