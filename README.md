@@ -47,11 +47,14 @@ My personal neovim config
 <C-q>           -- Close Buffer
 <A-up>          -- Move line up
 <A-Down>        -- Move line down
-<C-S-Right>     -- Go to next buffer
-<C-S-Left>      -- Go to previous buffer
+<C-b>           -- Open buffer manager menu
 
 # Visual mode
 <A-up>          -- Move line up
 <A-Down>        -- Move line down
+
+# On buffer manager menu
+<C-h>           -- Open buffer with horizontal split
+<C-v>           -- Open buffer with vertical split
 ```
   
