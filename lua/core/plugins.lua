@@ -22,56 +22,53 @@ return require('packer').startup(function(use)
   use("wakatime/vim-wakatime")                  -- Wakatime plugin
   use("lukas-reineke/indent-blankline.nvim")    -- Indentation guideline
 
+  -- Themes
+  use({ "catppuccin/nvim", as = "catppuccin" })
+  use({ "Everblush/nvim", name = "everblush" })
+
+  -- LSP servers
+  use({"williamboman/mason.nvim"})
+  use({"williamboman/mason-lspconfig.nvim"})
+  use({"neovim/nvim-lspconfig"})
+
+  -- Auto complete
+  use("hrsh7th/nvim-cmp")
+  use("hrsh7th/cmp-nvim-lsp")
+  use("hrsh7th/cmp-path")
+  use("hrsh7th/cmp-buffer")
+
+  -- Snippets 
+  use("L3MON4D3/LuaSnip")
+  use("saadparwaiz1/cmp_luasnip")
+
   -- Buffer Switcher
   use({
     'j-morano/buffer_manager.nvim',
     requires = use 'nvim-lua/plenary.nvim'
   })
 
-  -- NvimTree
-  use({
-    'nvim-tree/nvim-tree.lua',
-    requires = {'nvim-tree/nvim-web-devicons'},
-  })
-
-  -- Themes
-  use({ "catppuccin/nvim", as = "catppuccin" })
-  use({ "Everblush/nvim", name = "everblush" })
-
-  -- Mason and LSP
-  use({
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
-  })
-
-  -- Auto complete
-  use("hrsh7th/nvim-cmp")     -- Code suggestions
-  use("hrsh7th/cmp-nvim-lsp") -- LSP based suggestions
-  use("hrsh7th/cmp-path")     -- Folder path based suggestions
-  use("hrsh7th/cmp-buffer")   -- Buffer content based suggestions
-  use("hrsh7th/cmp-cmdline")  -- Command line suggestions 
-
-  -- Snippets | nvim-cmp dependencies
-  use("L3MON4D3/LuaSnip")
-  use("saadparwaiz1/cmp_luasnip")
-
-  use({
-    'nvim-telescope/telescope.nvim', tag = '0.1.x',
-    requires = { {'nvim-lua/plenary.nvim'} }
-  })
-
-  -- Lua line
+  -- Bottom line with info 
   use({
     'nvim-lualine/lualine.nvim',
-    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    requires = 'nvim-tree/nvim-web-devicons'
   })
 
-  -- Bufferline
+  -- File explorer 
   use({
-    'akinsho/bufferline.nvim',
-    tag = "*",
+    'nvim-tree/nvim-tree.lua',
+    requires = 'nvim-tree/nvim-web-devicons',
+  })
+
+  -- Show buffers as tabs on top 
+  use({
+    'akinsho/bufferline.nvim', tag = "*",
     requires = 'nvim-tree/nvim-web-devicons'
+  })
+
+  -- File finder
+  use({
+    'nvim-telescope/telescope.nvim', tag = '0.1.x',
+    requires = 'nvim-lua/plenary.nvim'
   })
   -- End of my plugins
 
