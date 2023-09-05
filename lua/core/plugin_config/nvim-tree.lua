@@ -3,6 +3,7 @@ require('nvim-tree').setup({
     width = 40
   },
   filters = {
-    dotfiles = true 
+    dotfiles = true, 
+    git_ignored = true
   }
 })
