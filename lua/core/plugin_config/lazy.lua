@@ -3,6 +3,7 @@ local plugins = {
   "wakatime/vim-wakatime",
   "norcalli/nvim-colorizer.lua",
   "windwp/nvim-autopairs",
+  "numToStr/Comment.nvim",
   {
    'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
