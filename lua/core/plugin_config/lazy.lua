@@ -1,4 +1,5 @@
 local plugins = {
+  "nvim-tree/nvim-tree.lua"
 }
 
 local opts = {}
