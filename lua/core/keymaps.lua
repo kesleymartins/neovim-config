@@ -17,3 +17,8 @@ map('n', '<Space>fg', telescope.live_grep, opts)          -- Open Telescope live
 -- Nvim Tree
 map('n', '<Space>nc', ':NvimTreeClose<CR>', opts)         -- Close Nvim Tree
 map('n', '<Space>nf', ':NvimTreeFocus<CR>', opts)         -- Focus on Nvim Tree
+
+-- Diff View
+map('n', '<Space>do', ':DiffviewOpen<CR>', opts)          -- Open Diff view
+map('n', '<Space>dh', ':DiffviewFileHistory<CR>', opts)   -- Open Diff view file history
+map('n', '<Space>dc', ':DiffviewClose<CR>', opts)         -- Close Diff View
