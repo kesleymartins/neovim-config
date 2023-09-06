@@ -7,6 +7,7 @@ local plugins = {
   "lewis6991/gitsigns.nvim",
   "sindrets/diffview.nvim",
   "lukas-reineke/indent-blankline.nvim",
+  "Kirbitz/neo-themes.nvim",
   {
     "akinsho/bufferline.nvim", 
     dependencies = { 'nvim-tree/nvim-web-devicons' }
