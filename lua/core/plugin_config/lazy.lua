@@ -5,6 +5,7 @@ local plugins = {
   "windwp/nvim-autopairs",
   "numToStr/Comment.nvim",
   "lewis6991/gitsigns.nvim",
+  "sindrets/diffview.nvim",
   {
    'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
