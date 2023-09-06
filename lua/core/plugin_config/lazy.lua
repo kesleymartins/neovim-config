@@ -6,6 +6,7 @@ local plugins = {
   "numToStr/Comment.nvim",
   "lewis6991/gitsigns.nvim",
   "sindrets/diffview.nvim",
+  "lukas-reineke/indent-blankline.nvim",
   {
     "akinsho/bufferline.nvim", 
     dependencies = 'nvim-tree/nvim-web-devicons'
