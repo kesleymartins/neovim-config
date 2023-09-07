@@ -9,14 +9,6 @@ My personal neovim config
   - fd find
   - ripgrep
 
-### Useful Commands
-```lua
-:PackerInstall   -- Intall Plugins
-:PackerUpdate    -- Update plugins
-:TSUpdate        -- Update Treesitter
-:MasonUpdate     -- Update LSP servers
-```
-
 ### Setup
 ---
 - Install packer
@@ -38,23 +30,20 @@ My personal neovim config
 ### Custom Keymaps
 ---
 ```lua
-# Normal mode
-<Space>nf       -- Focus NvimTree
-<Space>nc       -- Close NvimTree
-<Space>nr       -- Refresh NvimTree
+-- Normal/Visual mode
+<A-up>          -- Move line up
+<A-Down>        -- Move line down
+
+-- Telescope
 <Space>ff       -- Open Telescope file finder
 <Space>fg       -- Open Telescope live grep
-<C-q>           -- Close Buffer
-<A-up>          -- Move line up
-<A-Down>        -- Move line down
-<C-b>           -- Open buffer manager menu
 
-# Visual mode
-<A-up>          -- Move line up
-<A-Down>        -- Move line down
+-- Nvim Tree
+<Space>nf       -- Focus NvimTree (open if closed)
+<Space>nc       -- Close NvimTree
 
-# On buffer manager menu
-<C-h>           -- Open buffer with horizontal split
-<C-v>           -- Open buffer with vertical split
+-- Diff view
+<Space>do       -- Open Diff view 
+<Space>dh       -- Open Diff view file history
+<Space>dc       -- Close Diff view
 ```
-  
