@@ -7,6 +7,7 @@ local plugins = {
   "lewis6991/gitsigns.nvim",
   "sindrets/diffview.nvim",
   "lukas-reineke/indent-blankline.nvim",
+  "nvim-treesitter/nvim-treesitter",
   { 
     "catppuccin/nvim", 
     name = "catppuccin" 
@@ -16,7 +17,7 @@ local plugins = {
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
   {
-   'nvim-lualine/lualine.nvim',
+    'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
   {
