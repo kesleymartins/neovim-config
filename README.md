@@ -1,31 +1,32 @@
 # neovim-config
 My personal neovim config
 
+### Table of contents
+---
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Custom Keymaps](#custom-keymaps)
+- [Languages](#languages)
+
 ### Requirements
 ---
-  - g++
   - git
   - neovim
-  - fd find
+  - fd/find
   - ripgrep
 
-### Setup
+### Installation 
 ---
-- Install packer
-  - ```bash
-    git clone --depth 1 https://github.com/wbthomason/packer.nvim\
-     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-    ```
+```bash
+# Clone repository
+git clone https://github.com/kesleymartins/neovim-config
 
-- Open neovim
-- install plugins
-  - ```bash
-    :PackerInstall
-    ```
+mv neovim-config/ ~/.config/nvim 
+```
 
 - Setup icons
   - Download a patched font from [Nerd Fonts](https://www.nerdfonts.com)
-  - Set as your default terminal font
+  - Set as your terminal font
 
 ### Custom Keymaps
 ---
@@ -47,3 +48,10 @@ My personal neovim config
 <Space>dh       -- Open Diff view file history
 <Space>dc       -- Close Diff view
 ```
+
+### Languages
+- lua
+    ```lua
+    :TSInstall lua
+    :MasonInstall lua-language-server
+    ```
