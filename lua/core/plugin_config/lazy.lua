@@ -8,6 +8,11 @@ local plugins = {
   "sindrets/diffview.nvim",
   "lukas-reineke/indent-blankline.nvim",
   "nvim-treesitter/nvim-treesitter",
+  {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  },
   { 
     "catppuccin/nvim", 
     name = "catppuccin" 
