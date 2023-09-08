@@ -25,6 +25,13 @@ local plugins = {
     'saadparwaiz1/cmp_luasnip',
   },
   {
+    'stevearc/aerial.nvim',
+    dependencies = {
+       "nvim-treesitter/nvim-treesitter",
+       "nvim-tree/nvim-web-devicons"
+    },
+  },
+  {
     "catppuccin/nvim",
     name = "catppuccin"
   },
