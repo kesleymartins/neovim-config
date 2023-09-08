@@ -22,3 +22,6 @@ map('n', '<Space>nf', ':NvimTreeFocus<CR>', opts)         -- Focus on Nvim Tree
 map('n', '<Space>do', ':DiffviewOpen<CR>', opts)          -- Open Diff view
 map('n', '<Space>dh', ':DiffviewFileHistory<CR>', opts)   -- Open Diff view file history
 map('n', '<Space>dc', ':DiffviewClose<CR>', opts)         -- Close Diff View
+
+-- Aerial
+map('n', '<Space>a', ':AerialToggle!<CR>')                -- Togle Aerial
