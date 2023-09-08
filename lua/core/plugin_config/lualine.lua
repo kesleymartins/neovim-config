@@ -1,5 +1,5 @@
 local config = {
-  extensions = { "nvim-tree" }
+  extensions = { "nvim-tree", "aerial" }
 }
 
 require('lualine').setup(config)
