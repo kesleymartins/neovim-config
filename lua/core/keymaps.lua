@@ -25,3 +25,10 @@ map('n', '<Space>dc', ':DiffviewClose<CR>', opts)         -- Close Diff View
 
 -- Aerial
 map('n', '<Space>a', ':AerialToggle!<CR>')                -- Togle Aerial
+
+-- LSP Disgnostics 
+local diagnostic = vim.diagnostic
+map('n', '<space>e', diagnostic.open_float)
+map('n', '[d', diagnostic.goto_prev)
+map('n', ']d', diagnostic.goto_next)
+map('n', '<space>q', diagnostic.setloclist)
