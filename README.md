@@ -74,3 +74,9 @@ mv neovim-config/ ~/.config/nvim
 :TSInstall markdown 
 :MasonInstall marksman
 ```
+
+##### Ruby
+```lua
+:TSInstall lua
+:MasonInstall solargraph
+```
