@@ -24,12 +24,12 @@ local plugins = {
     'L3MON4D3/LuaSnip',
     'saadparwaiz1/cmp_luasnip',
   },
-  { 
-    "catppuccin/nvim", 
-    name = "catppuccin" 
+  {
+    "catppuccin/nvim",
+    name = "catppuccin"
   },
   {
-    "akinsho/bufferline.nvim", 
+    "akinsho/bufferline.nvim",
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
   {
