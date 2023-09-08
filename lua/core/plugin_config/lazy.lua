@@ -9,6 +9,7 @@ local plugins = {
   "lukas-reineke/indent-blankline.nvim",
   "nvim-treesitter/nvim-treesitter",
   "morhetz/gruvbox",
+  "kesleymartins/monoke.nvim",
   {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
