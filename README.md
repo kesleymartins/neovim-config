@@ -1,4 +1,4 @@
-# neovim-config
+# Neovim config 
 My personal neovim config
 
 ### Table of contents
@@ -8,12 +8,16 @@ My personal neovim config
 - [Custom Keymaps](#custom-keymaps)
 - [Languages](#languages)
 
+
+
 ### Requirements
 ---
   - git
   - neovim
   - fd/find
   - ripgrep
+
+
 
 ### Installation 
 ---
@@ -27,6 +31,8 @@ mv neovim-config/ ~/.config/nvim
 - Setup icons
   - Download a patched font from [Nerd Fonts](https://www.nerdfonts.com)
   - Set as your terminal font
+
+
 
 ### Custom Keymaps
 ---
@@ -47,11 +53,24 @@ mv neovim-config/ ~/.config/nvim
 <Space>do       -- Open Diff view 
 <Space>dh       -- Open Diff view file history
 <Space>dc       -- Close Diff view
+
+-- Aerial
+<Space>a        -- Toggle Aerial
 ```
 
+
+
 ### Languages
-- lua
-    ```lua
-    :TSInstall lua
-    :MasonInstall lua-language-server
-    ```
+---
+
+##### Lua
+```lua
+:TSInstall lua luadoc
+:MasonInstall lua-language-server
+```
+
+##### Markdown
+```lua
+:TSInstall markdown 
+:MasonInstall marksman
+```
