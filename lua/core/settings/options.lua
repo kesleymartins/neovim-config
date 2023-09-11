@@ -4,6 +4,7 @@ o.number = true           -- Add line numbers
 o.relativenumber = true   -- Set relative line numbers
 o.cursorline = true	      -- Add cursor line
 o.swapfile = false    	  -- impede a criacao de arquivos .swp 
+o.wrap = false
 
 o.expandtab = true
 o.shiftwidth = 2
