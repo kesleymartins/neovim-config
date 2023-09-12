@@ -29,7 +29,7 @@ mv neovim-config/ ~/.config/nvim
 ```
 
 - Setup icons
-  - Download a patched font from [Nerd Fonts](https://www.nerdfonts.com)
+  - Download a patched font from [Nerd Fonts]([https://www.nerdfonts.com](https://github.com/ryanoasis/nerd-fonts/releases))
   - Set as your terminal font
 
 
