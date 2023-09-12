@@ -83,3 +83,9 @@ mv neovim-config/ ~/.config/nvim
 :TSInstall lua
 :MasonInstall solargraph
 ```
+
+##### PHP
+```lua
+:TSInstall php
+:MasonInstall phpactor
+```
