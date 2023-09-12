@@ -10,12 +10,14 @@ My personal neovim config
 
 
 
-### Requirements
+### dependencies 
 ---
-  - git
-  - neovim
-  - fd/find
-  - ripgrep
+
+##### Fedora
+```bash
+sudo dnf install neovim git gcc rigpreg
+
+```
 
 
 
