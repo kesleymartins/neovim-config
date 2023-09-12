@@ -3,17 +3,17 @@ My personal neovim config
 
 ### Table of contents
 ---
-- [Requirements](#requirements)
+- [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Custom Keymaps](#custom-keymaps)
 - [Languages](#languages)
 
 
 
-### dependencies 
+### Dependencies 
 ---
 
-##### Fedora
+#### Fedora
 ```bash
 sudo dnf install neovim git gcc rigpreg
 
@@ -31,7 +31,7 @@ mv neovim-config/ ~/.config/nvim
 ```
 
 - Setup icons
-  - Download a patched font from [Nerd Fonts]([https://www.nerdfonts.com](https://github.com/ryanoasis/nerd-fonts/releases))
+  - Download a patched font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases)
   - Set as your terminal font
 
 
@@ -87,7 +87,12 @@ mv neovim-config/ ~/.config/nvim
 ```
 
 ##### PHP
-```lua
+```bash
+# requirements
+php composer
+ext-posix 
+
+# run commands inside neovim
 :TSInstall php
 :MasonInstall phpactor
 ```
