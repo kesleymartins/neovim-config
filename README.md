@@ -15,7 +15,7 @@ My personal neovim config
 
 #### Fedora
 ```bash
-sudo dnf install neovim git gcc rigpreg
+sudo dnf install neovim git gcc ripgrep
 
 ```
 
