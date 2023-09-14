@@ -88,11 +88,6 @@ mv neovim-config/ ~/.config/nvim
 
 ##### PHP
 ```bash
-# requirements
-php composer
-ext-posix 
-
-# run commands inside neovim
 :TSInstall php
 :MasonInstall phpactor
 ```
