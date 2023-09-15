@@ -87,7 +87,7 @@ mv neovim-config/ ~/.config/nvim
 ```
 
 ##### PHP
-```bash
+```lua
 :TSInstall php
 :MasonInstall phpactor
 ```
