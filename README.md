@@ -91,3 +91,9 @@ mv neovim-config/ ~/.config/nvim
 :TSInstall php
 :MasonInstall phpactor
 ```
+
+##### CSS / SASS / LESS
+```lua
+:TSInstall css scss
+:MasonInstall css-lsp cssmodules-language-server 
+```
