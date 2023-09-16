@@ -47,6 +47,10 @@ local plugins = {
   }
 }
 
-local opts = {}
+local opts = {
+  dev = {
+    path = "~/Projects"
+  }
+}
 
 require('lazy').setup(plugins, opts)
