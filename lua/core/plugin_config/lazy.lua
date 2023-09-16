@@ -8,7 +8,7 @@ local plugins = {
   { "sindrets/diffview.nvim" },
   { "lukas-reineke/indent-blankline.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
-  { "morhetz/gruvbox" },
+  { "sainnhe/sonokai" },
   {
     "kesleymartins/monoke.nvim",  dev = false
   },
