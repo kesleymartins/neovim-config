@@ -42,6 +42,8 @@ mv neovim-config/ ~/.config/nvim
 -- Normal/Visual mode
 <A-up>          -- Move line up
 <A-Down>        -- Move line down
+<C-S-Left>      -- Vertical resize to left
+<C-S-Right>     -- Vertical resize to right 
 
 -- Telescope
 <Space>ff       -- Open Telescope file finder

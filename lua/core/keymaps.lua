@@ -4,6 +4,8 @@ local opts = { noremap = true, silent = true }
 -- Normal Mode
 map('n', '<A-Up>', ':move -2<CR>', opts)                  -- Move line Up
 map('n', '<A-Down>', ':move +1<CR>', opts)                -- Move line Down
+map('n', '<C-S-Left>', ':vertical resize -2<CR>', opts)   -- Vertical resize to left
+map('n', '<C-S-Right>', ':vertical resize +2<CR>', opts)  -- Vertical resize to right
 
 -- Visual Mode Only
 map('x', '<A-Up>', ":move '<-2<CR>gv", opts)              -- Move line(s) Up
