@@ -48,6 +48,7 @@ mv neovim-config/ ~/.config/nvim
 -- Telescope
 <Space>ff       -- Open Telescope file finder
 <Space>fg       -- Open Telescope live grep
+<Space>fb       -- Open Telescope buffers
 
 -- Nvim Tree
 <Space>nf       -- Focus NvimTree (open if closed)

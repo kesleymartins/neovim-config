@@ -15,6 +15,7 @@ map('x', '<A-Down>', ":move '>+1<CR>gv", opts)            -- Move line(s) Down
 local telescope = require('telescope.builtin')
 map('n', '<Space>ff', telescope.find_files, opts)         -- Open Telescope find files page
 map('n', '<Space>fg', telescope.live_grep, opts)          -- Open Telescope live grep page
+map('n', '<Space>fb', telescope.buffers, opts)            -- Open Telescope buffers page
 
 -- Nvim Tree
 map('n', '<Space>nc', ':NvimTreeClose<CR>', opts)         -- Close Nvim Tree
