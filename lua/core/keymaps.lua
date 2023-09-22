@@ -29,9 +29,6 @@ map('n', '<Space>dc', ':DiffviewClose<CR>', opts)         -- Close Diff View
 -- Aerial
 map('n', '<Space>a', ':AerialToggle!<CR>')                -- Togle Aerial
 
--- Monoke
-map('n', '<C-b>', ':MNKToggle<CR>', opts)              -- Toggle Monoke
-
 -- LSP Disgnostics 
 local diagnostic = vim.diagnostic
 map('n', '<space>e', diagnostic.open_float)

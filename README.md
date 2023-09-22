@@ -61,9 +61,6 @@ mv neovim-config/ ~/.config/nvim
 
 -- Aerial
 <Space>a        -- Toggle Aerial
-
--- Monoke
-<C-b>           -- Toggle Monoke Buffer
 ```
 
 
