@@ -10,9 +10,6 @@ local plugins = {
   { "nvim-treesitter/nvim-treesitter" },
   { "sainnhe/sonokai" },
   {
-    "kesleymartins/monoke.nvim",  dev = false
-  },
-  {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
@@ -49,10 +46,6 @@ local plugins = {
   }
 }
 
-local opts = {
-  dev = {
-    path = "~/Projects"
-  }
-}
+local opts = {}
 
 require('lazy').setup(plugins, opts)
