@@ -10,6 +10,7 @@ local plugins = {
   { "nvim-treesitter/nvim-treesitter" },
   { "sainnhe/sonokai" },
   { "sontungexpt/stcursorword" },
+  { "Darazaki/indent-o-matic" },
   {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
