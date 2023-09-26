@@ -9,6 +9,7 @@ local plugins = {
   { "lukas-reineke/indent-blankline.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
   { "sainnhe/sonokai" },
+  { "sontungexpt/stcursorword" },
   {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
