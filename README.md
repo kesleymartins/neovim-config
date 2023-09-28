@@ -5,8 +5,8 @@ My personal neovim config
 ---
 - [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Custom Keymaps](#custom-keymaps)
-- [Languages](#languages)
+- [Keymaps](#keymaps)
+- [environment-setup](#environment-setup)
 
 
 
@@ -36,36 +36,54 @@ mv neovim-config/ ~/.config/nvim
 
 
 
-### Custom Keymaps
+### Keymaps
 ---
+
+#### Structure
 ```lua
--- Normal/Visual mode
-<A-up>          -- Move line up
-<A-Down>        -- Move line down
-<C-S-Left>      -- Vertical resize to left
-<C-S-Right>     -- Vertical resize to right 
+MODES KEYMAP COMMENT_DESCRIPTION
+```
 
+#### Customs
+```lua
+-- Move the cursor 
+n <C-h>      -- one window to the left
+n <C-j>      -- down one window 
+n <C-k>      -- up one window
+n <C-l>      -- one window to the right
+
+-- Move lines
+n/x <A-j>    -- Move one line down
+n/x <A-k>    -- Move one line up
+```
+
+#### Plugins
+```lua
 -- Telescope
-<Space>ff       -- Open Telescope file finder
-<Space>fg       -- Open Telescope live grep
-<Space>fb       -- Open Telescope buffers
+n <Space>ff    -- Open find files
+n <Space>fb    -- Open live grep
+n <Space>fb    -- Open buffers
 
--- Nvim Tree
-<Space>nf       -- Focus NvimTree (open if closed)
-<Space>nc       -- Close NvimTree
+-- Nvim tree
+n <Space>nc    -- Close
+n <Space>nf    -- Focus
 
 -- Diff view
-<Space>do       -- Open Diff view 
-<Space>dh       -- Open Diff view file history
-<Space>dc       -- Close Diff view
+n <Space>do    -- Open diff view
+n <Space>dh    -- Open file history
+n <Space>dc    -- Close
 
 -- Aerial
-<Space>a        -- Toggle Aerial
+n <Space>a     -- Toggle
+```
+
+#### Remaps
+```lua
+n U            -- Redo
 ```
 
 
-
-### Languages
+### Environment Setup
 ---
 
 ##### Lua
@@ -88,7 +106,7 @@ mv neovim-config/ ~/.config/nvim
 
 ##### PHP
 ```lua
-:TSInstall php
+:TSInstall php phpdoc
 :MasonInstall phpactor
 ```
 
