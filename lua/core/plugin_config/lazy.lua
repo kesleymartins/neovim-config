@@ -5,12 +5,15 @@ local plugins = {
   { "windwp/nvim-autopairs" },
   { "numToStr/Comment.nvim" },
   { "lewis6991/gitsigns.nvim" },
-  { "sindrets/diffview.nvim" },
-  { "lukas-reineke/indent-blankline.nvim" },
+  { "sindrets/diffview.nvim" }, 
   { "nvim-treesitter/nvim-treesitter" },
   { "sainnhe/sonokai" },
   { "sontungexpt/stcursorword" },
   { "Darazaki/indent-o-matic" },
+  { 
+    "lukas-reineke/indent-blankline.nvim", 
+    version = "2.20.8"
+  },
   {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
