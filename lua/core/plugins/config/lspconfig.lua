@@ -14,4 +14,10 @@ mason_lsp.setup_handlers({
   end
 })
 
+if lspconfig.html then
+  lspconfig.html.setup({
+    capabilities = capabilities,
+    filetypes = {"html", "php"}
+  })
+end
 
