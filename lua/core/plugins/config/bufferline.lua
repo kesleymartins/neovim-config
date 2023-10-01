@@ -3,7 +3,7 @@ local config = {
     separator_style = "slant",
     offsets = {
       {
-        filetype = "NvimTree",
+        filetype = "neo-tree",
         text = "File Explorer",
       }
     }
