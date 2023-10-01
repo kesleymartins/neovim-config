@@ -1,16 +1,16 @@
-local plugins = {
+require('lazy').setup({
   { "wakatime/vim-wakatime" },
   { "norcalli/nvim-colorizer.lua" },
   { "windwp/nvim-autopairs" },
   { "numToStr/Comment.nvim" },
   { "lewis6991/gitsigns.nvim" },
-  { "sindrets/diffview.nvim" }, 
+  { "sindrets/diffview.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
   { "sainnhe/sonokai" },
   { "sontungexpt/stcursorword" },
   { "Darazaki/indent-o-matic" },
-  { 
-    "lukas-reineke/indent-blankline.nvim", 
+  {
+    "lukas-reineke/indent-blankline.nvim",
     version = "2.20.8"
   },
   {
@@ -57,8 +57,5 @@ local plugins = {
     'nvim-telescope/telescope.nvim', tag = '0.1.2',
     dependencies = { 'nvim-lua/plenary.nvim' }
   }
-}
-
-local opts = {}
-
-require('lazy').setup(plugins, opts)
+},
+{ })

@@ -1,6 +1,5 @@
 require('core.settings')
 require('core.plugins')
-require('core.plugin_config')
 require('core.keymaps')
 require('core.appearence')
 require('core.autocmd')
