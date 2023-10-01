@@ -1,5 +1,4 @@
 local plugins = {
-  { "nvim-tree/nvim-tree.lua" },
   { "wakatime/vim-wakatime" },
   { "norcalli/nvim-colorizer.lua" },
   { "windwp/nvim-autopairs" },
@@ -29,6 +28,15 @@ local plugins = {
   {
     'L3MON4D3/LuaSnip',
     'saadparwaiz1/cmp_luasnip',
+  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v3.x",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons",
+      "MunifTanjim/nui.nvim",
+    }
   },
   {
     'stevearc/aerial.nvim',

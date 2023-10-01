@@ -7,9 +7,9 @@ map('n', '<Space>ff', telescope.find_files, opts)         -- Open find files pag
 map('n', '<Space>fg', telescope.live_grep, opts)          -- Open live grep page
 map('n', '<Space>fb', telescope.buffers, opts)            -- Open buffers page
 
--- Nvim Tree
-map('n', '<Space>nc', ':NvimTreeClose<CR>', opts)         -- Close 
-map('n', '<Space>nf', ':NvimTreeFocus<CR>', opts)         -- Focus
+-- Neo-tree 
+map('n', '<Space>nc', ':Neotree close<CR>', opts)         -- Close 
+map('n', '<Space>nf', ':Neotree focus<CR>', opts)         -- Focus
 
 -- Diff View
 map('n', '<Space>do', ':DiffviewOpen<CR>', opts)          -- Open Diff view
