@@ -100,7 +100,7 @@ n U            -- Redo
 
 ##### Ruby
 ```lua
-:TSInstall lua
+:TSInstall ruby
 :MasonInstall solargraph
 ```
 
