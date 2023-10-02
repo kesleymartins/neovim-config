@@ -115,3 +115,9 @@ n U            -- Redo
 :TSInstall css scss
 :MasonInstall css-lsp cssmodules-language-server 
 ```
+
+##### HTML
+```lua
+:TSInstall html
+:MasonInstall html-lsp
+```
