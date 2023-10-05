@@ -1,5 +1,4 @@
 require('lazy').setup({
-  { "wakatime/vim-wakatime" },
   { "norcalli/nvim-colorizer.lua" },
   { "windwp/nvim-autopairs" },
   { "numToStr/Comment.nvim" },
