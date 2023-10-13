@@ -1,1 +1,5 @@
-require('neo-tree').setup()
+require('neo-tree').setup({
+  window = {
+    position = "float"
+  }
+})
