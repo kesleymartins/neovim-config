@@ -7,7 +7,6 @@ require('lazy').setup({
   { "nvim-treesitter/nvim-treesitter" },
   { "sainnhe/sonokai" },
   { "sontungexpt/stcursorword" },
-  { "Darazaki/indent-o-matic" },
   {
     "lukas-reineke/indent-blankline.nvim",
     version = "2.20.8"
