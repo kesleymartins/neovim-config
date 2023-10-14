@@ -13,3 +13,19 @@ map('n', '<A-j>', ':move +1<CR>', opts)
 
 map('x', '<A-k>', ":move '<-2<CR>gv", opts)
 map('x', '<A-j>', ":move '>+1<CR>gv", opts)
+
+
+-- Use S-u for redo 
+map('n', 'U', '<C-r>', opts)
+
+-- Unmap arrow keys 
+map('n', '<Up>', '<NOP>', opts)
+map('n', '<Down>', '<NOP>', opts)
+map('n', '<Left>', '<NOP>', opts)
+map('n', '<Right>', '<NOP>', opts)
+
+map('i', '<Up>', '<NOP>', opts)
+map('i', '<Down>', '<NOP>', opts)
+map('i', '<Left>', '<NOP>', opts)
+map('i', '<Right>', '<NOP>', opts)
+

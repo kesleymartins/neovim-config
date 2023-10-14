@@ -25,3 +25,5 @@ map('n', '<space>e', diagnostic.open_float)
 map('n', '[d', diagnostic.goto_prev)
 map('n', ']d', diagnostic.goto_next)
 map('n', '<space>q', diagnostic.setloclist)
+
+

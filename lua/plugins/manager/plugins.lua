@@ -7,10 +7,8 @@ require('lazy').setup({
   { "nvim-treesitter/nvim-treesitter" },
   { "sainnhe/sonokai" },
   { "sontungexpt/stcursorword" },
-  {
-    "lukas-reineke/indent-blankline.nvim",
-    version = "2.20.8"
-  },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
   {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
