@@ -117,3 +117,9 @@ n U            -- Redo
 :TSInstall html
 :MasonInstall html-lsp
 ```
+
+##### Go
+```lua
+:TSInstall go gomod gosum
+:MasonInstall gopls
+```
