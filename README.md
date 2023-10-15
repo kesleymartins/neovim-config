@@ -25,9 +25,7 @@ sudo dnf install neovim git gcc ripgrep
 ---
 ```bash
 # Clone repository
-git clone https://github.com/kesleymartins/neovim-config
-
-mv neovim-config/ ~/.config/nvim 
+git clone https://github.com/kesleymartins/neovim-config ~/.config/nvim 
 ```
 
 - Setup icons
