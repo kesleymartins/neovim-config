@@ -1,5 +1,6 @@
-local config = {
+require('lualine').setup({
+  options = {
+    theme = "catppuccin"
+  },
   extensions = { "neo-tree", "aerial" }
-}
-
-require('lualine').setup(config)
+})
