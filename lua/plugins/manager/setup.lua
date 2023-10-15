@@ -6,8 +6,8 @@ require('lazy').setup({
   { "nvim-treesitter/nvim-treesitter" },
   { "sontungexpt/stcursorword" },
   {
-    'echasnovski/mini.animate',
-    version = '*'
+    'echasnovski/mini.nvim',
+    version = false
   },
   {
     "catppuccin/nvim",
