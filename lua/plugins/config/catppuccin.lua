@@ -35,6 +35,7 @@ require("catppuccin").setup({
     cmp = true,
     gitsigns = true,
     treesitter = true,
+    aerial = true,
     indent_blankline = {
       enabled = true,
       scope_color = "", -- catppuccin color (eg. `lavender`) Default: text
