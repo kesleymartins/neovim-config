@@ -1,7 +1,6 @@
 require('lazy').setup({
   { "norcalli/nvim-colorizer.lua" },
   { "windwp/nvim-autopairs" },
-  { "numToStr/Comment.nvim" },
   { "lewis6991/gitsigns.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
   { "sontungexpt/stcursorword" },
