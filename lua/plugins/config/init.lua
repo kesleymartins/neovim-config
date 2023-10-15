@@ -1,7 +1,6 @@
 require('plugins.config.mini')
 require('plugins.config.catppuccin')
 require('plugins.config.aerial')
-require('plugins.config.autopairs')
 require('plugins.config.bufferline')
 require('plugins.config.cmp')
 require('plugins.config.colorizer')
