@@ -4,7 +4,6 @@ require('lazy').setup({
   { "numToStr/Comment.nvim" },
   { "lewis6991/gitsigns.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
-  { "sainnhe/sonokai" },
   { "sontungexpt/stcursorword" },
   {
     "catppuccin/nvim",
