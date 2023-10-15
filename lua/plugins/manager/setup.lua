@@ -13,11 +13,6 @@ require('lazy').setup({
     priority = 1000
   },
   {
-    "lukas-reineke/indent-blankline.nvim",
-    main = "ibl",
-    opts = {}
-  },
-  {
     "j-hui/fidget.nvim",
     tag = "legacy",
     event = "LspAttach",
