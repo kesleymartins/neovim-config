@@ -66,11 +66,6 @@ n <Space>fb    -- Open buffers
 n <Space>nc    -- Close
 n <Space>nf    -- Focus
 
--- Diff view
-n <Space>do    -- Open diff view
-n <Space>dh    -- Open file history
-n <Space>dc    -- Close
-
 -- Aerial
 n <Space>a     -- Toggle
 ```
