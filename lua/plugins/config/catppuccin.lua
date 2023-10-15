@@ -37,6 +37,8 @@ require("catppuccin").setup({
     treesitter = true,
     aerial = true,
     fidget = true,
+    mason = true,
+    neotree = true,
     indent_blankline = {
       enabled = true,
       scope_color = "", -- catppuccin color (eg. `lavender`) Default: text
