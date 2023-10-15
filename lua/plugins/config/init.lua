@@ -1,3 +1,4 @@
+require('plugins.config.mini')
 require('plugins.config.catppuccin')
 require('plugins.config.aerial')
 require('plugins.config.autopairs')
