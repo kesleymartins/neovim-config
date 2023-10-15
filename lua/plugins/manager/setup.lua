@@ -3,7 +3,6 @@ require('lazy').setup({
   { "windwp/nvim-autopairs" },
   { "lewis6991/gitsigns.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
-  { "sontungexpt/stcursorword" },
   {
     'echasnovski/mini.nvim',
     version = false
