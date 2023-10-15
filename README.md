@@ -68,6 +68,9 @@ n <Space>nf    -- Focus
 
 -- Aerial
 n <Space>a     -- Toggle
+
+-- Neogit
+n <Space>ng    -- Open
 ```
 
 #### Remaps

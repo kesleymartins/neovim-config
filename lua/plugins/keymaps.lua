@@ -14,6 +14,9 @@ map('n', '<Space>nf', ':Neotree focus<CR>', opts)         -- Focus
 -- Aerial
 map('n', '<Space>a', ':AerialToggle!<CR>')                -- Togle Aerial
 
+-- Neogit
+map('n', '<Space>ng', ':Neogit<CR>', opts)
+
 -- LSP Disgnostics 
 local diagnostic = vim.diagnostic
 map('n', '<space>e', diagnostic.open_float)
