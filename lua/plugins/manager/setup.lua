@@ -10,6 +10,11 @@ require('lazy').setup({
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
   {
+    "j-hui/fidget.nvim",
+    tag = "legacy",
+    event = "LspAttach",
+  },
+  {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
