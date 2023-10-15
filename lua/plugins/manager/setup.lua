@@ -2,6 +2,7 @@ require('lazy').setup({
   { "norcalli/nvim-colorizer.lua" },
   { "nvim-treesitter/nvim-treesitter" },
   { "HiPhish/rainbow-delimiters.nvim" },
+  { "christoomey/vim-tmux-navigator" },
   {
     "lewis6991/gitsigns.nvim",
     config = true
