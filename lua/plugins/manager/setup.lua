@@ -1,8 +1,11 @@
 require('lazy').setup({
   { "norcalli/nvim-colorizer.lua" },
-  { "lewis6991/gitsigns.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
   { "HiPhish/rainbow-delimiters.nvim" },
+  {
+    "lewis6991/gitsigns.nvim",
+    config = true
+  },
   {
     'echasnovski/mini.nvim',
     version = false
@@ -16,6 +19,7 @@ require('lazy').setup({
     "j-hui/fidget.nvim",
     tag = "legacy",
     event = "LspAttach",
+    config = true
   },
   {
     "NeogitOrg/neogit",
@@ -61,15 +65,23 @@ require('lazy').setup({
   },
   {
     "akinsho/bufferline.nvim",
-    dependencies = { 'nvim-tree/nvim-web-devicons' }
+    dependencies = {
+      'nvim-tree/nvim-web-devicons'
+    }
   },
   {
     'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' }
+    dependencies = {
+      'nvim-tree/nvim-web-devicons'
+    }
   },
   {
-    'nvim-telescope/telescope.nvim', tag = '0.1.2',
-    dependencies = { 'nvim-lua/plenary.nvim' }
+    'nvim-telescope/telescope.nvim',
+    branch = '0.1.x',
+    dependencies = {
+      'nvim-lua/plenary.nvim'
+    },
+    config = true
   }
 },
 { })
