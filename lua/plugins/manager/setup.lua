@@ -2,6 +2,7 @@ require('lazy').setup({
   { "norcalli/nvim-colorizer.lua" },
   { "lewis6991/gitsigns.nvim" },
   { "nvim-treesitter/nvim-treesitter" },
+  { "HiPhish/rainbow-delimiters.nvim" },
   {
     'echasnovski/mini.nvim',
     version = false
