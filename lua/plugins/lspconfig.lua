@@ -1,12 +1,15 @@
 return {
   "neovim/nvim-lspconfig",
   dependencies = {
-    "hrsh7th/cmp-nvim-lsp"
+    'hrsh7th/nvim-cmp',
+    "hrsh7th/cmp-nvim-lsp",
+    "williamboman/mason-lspconfig.nvim"
   },
   event = { "BufReadPre", "BufNewFile" },
   config = function()
     local lspconfig = require('lspconfig')
     local cmp_nvim_lsp = require("cmp_nvim_lsp")
+    require("mason-lspconfig").setup()
 
     local capabilities = vim.tbl_deep_extend(
       'force',
