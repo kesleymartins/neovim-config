@@ -85,7 +85,7 @@ n U            -- Redo
 ##### Lua
 ```lua
 :TSInstall lua luadoc
-:MasonInstall lua-language-server stylua
+:MasonInstall lua-language-server stylua luacheck
 ```
 
 ##### Markdown
