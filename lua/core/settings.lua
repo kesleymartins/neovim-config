@@ -1,5 +1,6 @@
 local g = vim.g
 local o = vim.opt
+local d = vim.diagnostic
 
 g.loaded_netrw = 1
 g.loaded_netrwPlugin = 1
@@ -16,3 +17,7 @@ o.softtabstop = 2
 o.tabstop = 2
 
 o.termguicolors = true
+
+d.config({
+  virtual_lines = false,
+})
