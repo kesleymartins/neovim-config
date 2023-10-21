@@ -103,7 +103,7 @@ n U            -- Redo
 ##### PHP
 ```lua
 :TSInstall php phpdoc
-:MasonInstall phpactor
+:MasonInstall phpactor phpmd phpcfb
 ```
 
 ##### CSS / SASS / LESS
