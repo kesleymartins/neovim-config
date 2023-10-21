@@ -4,4 +4,3 @@ return {
   event = "LspAttach",
   config = true,
 }
-
