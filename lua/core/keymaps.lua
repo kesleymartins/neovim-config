@@ -1,23 +1,22 @@
-local map = vim.keymap.set
+local keymap = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
 -- Window Movement
-map('n', '<C-h>', '<C-w>h', opts)
-map('n', '<C-j>', '<C-w>j', opts)
-map('n', '<C-k>', '<C-w>k', opts)
-map('n', '<C-l>', '<C-w>l', opts)
+keymap("n", "<C-h>", "<C-w>h", opts)
+keymap("n", "<C-j>", "<C-w>j", opts)
+keymap("n", "<C-k>", "<C-w>k", opts)
+keymap("n", "<C-l>", "<C-w>l", opts)
 
--- Use S-u for redo 
-map('n', 'U', '<C-r>', opts)
+-- Use S-u for redo
+keymap("n", "U", "<C-r>", opts)
 
--- Unmap arrow keys 
-map('n', '<Up>', '<NOP>', opts)
-map('n', '<Down>', '<NOP>', opts)
-map('n', '<Left>', '<NOP>', opts)
-map('n', '<Right>', '<NOP>', opts)
+-- Unmap arrow keys
+keymap("n", "<Up>", "<NOP>", opts)
+keymap("n", "<Down>", "<NOP>", opts)
+keymap("n", "<Left>", "<NOP>", opts)
+keymap("n", "<Right>", "<NOP>", opts)
 
-map('i', '<Up>', '<NOP>', opts)
-map('i', '<Down>', '<NOP>', opts)
-map('i', '<Left>', '<NOP>', opts)
-map('i', '<Right>', '<NOP>', opts)
-
+keymap("i", "<Up>", "<NOP>", opts)
+keymap("i", "<Down>", "<NOP>", opts)
+keymap("i", "<Left>", "<NOP>", opts)
+keymap("i", "<Right>", "<NOP>", opts)
