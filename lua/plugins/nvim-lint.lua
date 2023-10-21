@@ -20,7 +20,7 @@ return {
       end,
     })
 
-    keymap("n", "<Space>l", function()
+    keymap("n", "<Space>ll", function()
       lint.try_lint()
     end)
   end,
