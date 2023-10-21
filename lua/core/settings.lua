@@ -19,5 +19,5 @@ o.tabstop = 2
 o.termguicolors = true
 
 d.config({
-  virtual_lines = false,
+  virtual_text = false,
 })
