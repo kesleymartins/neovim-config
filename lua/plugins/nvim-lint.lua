@@ -12,6 +12,7 @@ return {
     lint.linters_by_ft = {
       lua = { "luacheck" },
       php = { "phpmd" },
+      go = { "golangci-lint" },
     }
 
     vim.api.nvim_create_autocmd({ "BufWritePost" }, {
