@@ -121,5 +121,5 @@ n U            -- Redo
 ##### Go
 ```lua
 :TSInstall go gomod gosum
-:MasonInstall gopls golangci-lint
+:MasonInstall gopls 
 ```
