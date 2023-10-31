@@ -6,7 +6,11 @@ keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
---
+
+-- Move between buffers
+keymap("n", "<S-h>", ":bprevious<CR>", opts)
+keymap("n", "<S-l>", ":bnext<CR>", opts)
+
 -- Make vertical split
 keymap("n", "<Space>sv", "<C-w>v", opts)
 
