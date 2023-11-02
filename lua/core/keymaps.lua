@@ -11,6 +11,11 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 
+-- Keep cursor on the midle of the screen
+keymap("n", "<C-u>", "<C-u>zz", opts)
+keymap("n", "<C-d>", "<C-d>zz", opts)
+keymap("n", "<s-g>", "<s-g>zz", opts)
+
 -- Make vertical split
 keymap("n", "<Space>sv", "<C-w>v", opts)
 
