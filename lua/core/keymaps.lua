@@ -29,8 +29,8 @@ keymap("n", "<Space>bd", ":bdelete<CR>", opts)
 keymap("n", "U", "<C-r>", opts)
 
 -- Exit insert mode
-keymap("i", ";;", "<ESC>", opts)
-keymap("v", ";;", "<ESC>", opts)
+keymap("i", "jk", "<ESC>", opts)
+keymap("v", "jk", "<ESC>", opts)
 
 -- Clear search highlights
 keymap("n", "<Space>nh", ":nohl<CR>", opts)
