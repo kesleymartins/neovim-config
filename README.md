@@ -1,7 +1,7 @@
 # Neovim config 
 My personal neovim config
 
-### Table of contents
+## Table of contents
 ---
 - [Dependencies](#dependencies)
 - [Installation](#installation)
@@ -9,35 +9,28 @@ My personal neovim config
 - [environment-setup](#environment-setup)
 
 
-
-### Dependencies 
+## Dependencies 
 ---
-
-#### Fedora
+### Fedora
 ```bash
 sudo dnf install neovim git gcc ripgrep
-
 ```
 
 
-
-### Installation 
+## Installation 
 ---
 ```bash
 # Clone repository
 git clone https://github.com/kesleymartins/neovim-config ~/.config/nvim 
 ```
-
 - Setup icons
   - Download a patched font from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases)
   - Set as your terminal font
 
 
-
-### Keymaps
+## Keymaps
 ---
-
-#### Structure
+### Structure
 ```lua
 MODES KEYMAP COMMENT_DESCRIPTION
 ```
@@ -79,46 +72,46 @@ n U            -- Redo
 ```
 
 
-### Environment Setup
+## Environment Setup
 ---
 
-##### Lua
+### Lua
 ```lua
 :TSInstall lua luadoc
 :MasonInstall lua-language-server stylua luacheck
 ```
 
-##### Markdown
+### Markdown
 ```lua
 :TSInstall markdown 
 :MasonInstall marksman
 ```
 
-##### Ruby
+### Ruby
 ```lua
 :TSInstall ruby
 :MasonInstall solargraph
 ```
 
-##### PHP
+### PHP
 ```lua
 :TSInstall php phpdoc
 :MasonInstall phpactor phpmd phpcfb
 ```
 
-##### CSS / SASS / LESS
+### CSS / SASS / LESS
 ```lua
 :TSInstall css scss
 :MasonInstall css-lsp cssmodules-language-server 
 ```
 
-##### HTML
+### HTML
 ```lua
 :TSInstall html
 :MasonInstall html-lsp
 ```
 
-##### Go
+### Go
 ```lua
 :TSInstall go gomod gosum
 :MasonInstall gopls 
