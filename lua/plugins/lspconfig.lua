@@ -33,11 +33,6 @@ return {
       keymap("n", "<Space>D", ":Telescope diagnostics bufnr=0<CR>", opts)
     end
 
-    lspconfig["yamlls"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
-
     -- PHP
     lspconfig["phpactor"].setup({
       capabilities = capabilities,

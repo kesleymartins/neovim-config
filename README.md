@@ -78,7 +78,6 @@ n U            -- Redo
 ### YAML
 ```lua
 :TSInstall yaml
-:MasonInstall yaml-language-server
 ```
 
 ### Lua
