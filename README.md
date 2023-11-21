@@ -75,6 +75,12 @@ n U            -- Redo
 ## Environment Setup
 ---
 
+### JavaScript / Typescript
+```lua
+:TSInstall typescript
+:MasonInstall typescript-language-server
+```
+
 ### Svelte
 ```lua
 :TSInstall svelte

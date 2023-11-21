@@ -33,6 +33,12 @@ return {
       keymap("n", "<Space>D", ":Telescope diagnostics bufnr=0<CR>", opts)
     end
 
+    -- Javascript / Typescript
+    lspconfig["tsserver"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
     -- Svelte
     lspconfig["svelte"].setup({
       capabilities = capabilities,
