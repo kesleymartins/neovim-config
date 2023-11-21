@@ -75,6 +75,12 @@ n U            -- Redo
 ## Environment Setup
 ---
 
+### YAML
+```lua
+:TSInstall yaml
+:MasonInstall yaml-language-server
+```
+
 ### Lua
 ```lua
 :TSInstall lua luadoc
