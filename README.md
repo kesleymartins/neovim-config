@@ -75,6 +75,12 @@ n U            -- Redo
 ## Environment Setup
 ---
 
+### Svelte
+```lua
+:TSInstall svelte
+:MasonInstall svelte-language-server
+```
+
 ### YAML
 ```lua
 :TSInstall yaml
