@@ -33,6 +33,32 @@ return {
       keymap("n", "<Space>D", ":Telescope diagnostics bufnr=0<CR>", opts)
     end
 
+    -- PHP
+    lspconfig["phpactor"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- Golang
+    lspconfig["gopls"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- Ruby
+    lspconfig["solargraph"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      format = true,
+    })
+
+    -- Emmet
+    lspconfig["emmet_language_server"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
+    -- Lua
     lspconfig["lua_ls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
@@ -49,27 +75,6 @@ return {
           },
         },
       },
-
-      lspconfig["phpactor"].setup({
-        capabilities = capabilities,
-        on_attach = on_attach,
-      }),
-
-      lspconfig["gopls"].setup({
-        capabilities = capabilities,
-        on_attach = on_attach,
-      }),
-
-      lspconfig["solargraph"].setup({
-        capabilities = capabilities,
-        on_attach = on_attach,
-        format = true,
-      }),
-    })
-
-    lspconfig["emmet_language_server"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
     })
   end,
 }
