@@ -33,6 +33,12 @@ return {
       keymap("n", "<Space>D", ":Telescope diagnostics bufnr=0<CR>", opts)
     end
 
+    -- Vue
+    lspconfig['volar'].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
     -- Javascript / Typescript
     lspconfig["tsserver"].setup({
       capabilities = capabilities,

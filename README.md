@@ -75,6 +75,12 @@ n U            -- Redo
 ## Environment Setup
 ---
 
+### Vue
+```lua
+:TSInstall vue
+:MasonInstall vue language server
+```
+
 ### JavaScript / Typescript
 ```lua
 :TSInstall typescript
