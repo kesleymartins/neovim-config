@@ -84,7 +84,7 @@ n U            -- Redo
 ### Vue
 ```lua
 :TSInstall vue
-:MasonInstall vue language server
+:MasonInstall vue-language-server
 ```
 
 ### JavaScript / Typescript
