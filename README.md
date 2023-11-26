@@ -75,6 +75,12 @@ n U            -- Redo
 ## Environment Setup
 ---
 
+### Rust
+```lua
+:TSInstall rust
+:MasonInstall rust-analyzer
+```
+
 ### Vue
 ```lua
 :TSInstall vue

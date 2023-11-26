@@ -12,7 +12,7 @@ return {
     require("mason-lspconfig").setup()
 
     local capabilities =
-      vim.tbl_deep_extend("force", lspconfig.util.default_config.capabilities, cmp_nvim_lsp.default_capabilities())
+        vim.tbl_deep_extend("force", lspconfig.util.default_config.capabilities, cmp_nvim_lsp.default_capabilities())
 
     local on_attach = function(_, bufnr)
       local keymap = vim.keymap.set
@@ -32,6 +32,12 @@ return {
       keymap({ "n", "v" }, "<Space>ca", vim.lsp.buf.code_action, opts)
       keymap("n", "<Space>D", ":Telescope diagnostics bufnr=0<CR>", opts)
     end
+
+    -- Rust
+    lspconfig['rust_analyzer'].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
 
     -- Vue
     lspconfig['volar'].setup({
