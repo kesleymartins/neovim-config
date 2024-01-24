@@ -147,8 +147,8 @@ n CR           -- Confirm
 
 ### PHP
 ```lua
-:TSInstall php phpdoc
-:MasonInstall phpactor phpmd phpcfb
+:TSInstall php phpdoc 
+:MasonInstall phpactor pretty-php
 ```
 
 ### CSS / SASS / LESS
