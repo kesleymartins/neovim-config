@@ -55,9 +55,8 @@ n <Space>ff    -- Open find files
 n <Space>fb    -- Open live grep
 n <Space>fb    -- Open buffers
 
--- Neo-tree 
-n <Space>nc    -- Close
-n <Space>nf    -- Focus
+-- Oil
+n -            -- Open
 
 -- Aerial
 n <Space>a     -- Toggle
