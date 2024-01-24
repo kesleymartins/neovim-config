@@ -30,6 +30,8 @@ keymap("n", "U", "<C-r>", opts)
 
 -- Exit insert mode
 keymap("i", "kj", "<ESC>", opts)
+
+-- Exit visual mode
 keymap("v", "lk", "<ESC>", opts)
 
 -- Clear search highlights

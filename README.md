@@ -32,20 +32,35 @@ git clone https://github.com/kesleymartins/neovim-config ~/.config/nvim
 ---
 ### Structure
 ```lua
-MODES KEYMAP COMMENT_DESCRIPTION
+MODE KEYMAP  -- DESCRIPTION
 ```
 
 #### Customs
 ```lua
--- Move the cursor 
-n <C-h>      -- one window to the left
-n <C-j>      -- down one window 
-n <C-k>      -- up one window
-n <C-l>      -- one window to the right
+-- Window
+n <Space>sv  -- Vertical Split
+n <Space>sx  -- Close
 
--- Move lines
-n/x <A-j>    -- Move one line down
-n/x <A-k>    -- Move one line up
+-- Cursor
+n <C-h>      -- Move to LEFT window
+n <C-j>      -- Move to BOTTOM window
+n <C-k>      -- Move to TOP window
+n <C-l>      -- Move to RIGHT window
+
+-- Buffers
+n <S-h>      -- Move to previous
+n <S-l>      -- Move to next 
+n <Space>bd  -- delete
+
+-- Exit modes
+i kj         -- Insert
+i lk         -- Visual
+
+-- Clear search highlight
+n <Space>nh
+
+-- Redo
+n U            
 ```
 
 #### Plugins
@@ -64,12 +79,6 @@ n <Space>a     -- Toggle
 -- Neogit
 n <Space>ng    -- Open
 ```
-
-#### Remaps
-```lua
-n U            -- Redo
-```
-
 
 ## Environment Setup
 ---
