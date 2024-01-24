@@ -112,7 +112,7 @@ n CR           -- Confirm
 
 ### JavaScript / Typescript
 ```lua
-:TSInstall typescript
+:TSInstall javaScript typescript
 :MasonInstall typescript-language-server
 ```
 
