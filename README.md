@@ -160,7 +160,7 @@ n CR           -- Confirm
 ### HTML
 ```lua
 :TSInstall html
-:MasonInstall html-lsp
+:MasonInstall emmet-language-server
 ```
 
 ### Go
