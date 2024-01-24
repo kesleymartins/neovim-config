@@ -12,8 +12,8 @@ return {
 
     aerial.setup({
       on_attach = function(bufnr)
-        keymap("n", "{", "<cmd>AerialPrev<CR>", { buffer = bufnr })
-        keymap("n", "}", "<cmd>AerialNext<CR>", { buffer = bufnr })
+        keymap("n", "{", ":AerialPrev<CR>", { buffer = bufnr })
+        keymap("n", "}", ":AerialNext<CR>", { buffer = bufnr })
         keymap("n", "<Space>a", ":AerialToggle!<CR>", opts)
       end,
     })

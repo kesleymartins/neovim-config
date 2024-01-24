@@ -75,6 +75,8 @@ n -            -- Open
 
 -- Aerial
 n <Space>a     -- Toggle
+n {            -- Previous
+n }            -- Next
 
 -- Neogit
 n <Space>ng    -- Open
