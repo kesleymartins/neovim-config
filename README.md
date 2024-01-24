@@ -130,7 +130,7 @@ n CR           -- Confirm
 ### Lua
 ```lua
 :TSInstall lua luadoc
-:MasonInstall lua-language-server stylua luacheck
+:MasonInstall lua-language-server stylua
 ```
 
 ### Markdown
