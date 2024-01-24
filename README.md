@@ -80,6 +80,19 @@ n }            -- Next
 
 -- Neogit
 n <Space>ng    -- Open
+
+-- LSP
+n K            -- Info
+n [d           -- Previous diagnostic
+n ]d           -- Next diagnostic
+n <Space>d     -- Open line diagnostic
+n <Space>rn    -- Rename
+n <Space>rs    -- Restart LSP
+n/v <Space>ca  -- Code Actions
+
+-- Nvim Completation
+n <C-e>        -- Abort completation
+n CR           -- Confirm 
 ```
 
 ## Environment Setup
